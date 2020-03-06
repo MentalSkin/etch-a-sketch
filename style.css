@@ -21,8 +21,8 @@ html {
     grid-template-rows: repeat(16, 1fr);
     justify-items: center;
     box-sizing: content-box;
-    border: 2px solid red;
-    margin-top: 50px;
+    border: 0.1px solid red;
+    margin-top: 20px;
     justify-content: space-evenly
     }
 
@@ -32,8 +32,8 @@ html {
     grid-template-rows: repeat(32, 1fr);
     justify-items: center;
     box-sizing: content-box;
-    border: 2px solid red;
-    margin-top: 50px;
+    border: 0.1px solid red;
+    margin-top: 20px;
     justify-content: space-evenly; 
     }
 

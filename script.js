@@ -8,13 +8,13 @@ function resolution() {
     if (sixteen === true && thirtyTwo ===false) {
         for (let i = 0; i < 256; i++) {
             let box16 = document.createElement('div');
-            box16.setAttribute('class', 'box16')
+            box16.setAttribute('class', 'box16 box')
             containerGrid.appendChild(box16)
         }
     } else if (sixteen ===false && thirtyTwo === true) {
         for (let i = 0; i < 1024; i++) {
             let box32 = document.createElement('div');
-            box32.setAttribute('class', 'box32')
+            box32.setAttribute('class', 'box32 box')
             containerGrid.appendChild(box32)
         }
     }
@@ -49,3 +49,7 @@ function clearContainerGrid() {
 resolution()
 
 
+let test = document.getElementById('containerGrid');
+test.addEventListener('mouseover', function( event ) {
+    event.target.setAttribute("style", "background-color: red;")
+})
