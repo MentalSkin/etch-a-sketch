@@ -1,0 +1,60 @@
+html {
+    background: fixed;
+    background-color: beige;
+}
+
+#containerTitle {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#buttons {
+    display: flex;
+    height: 30px;
+    margin: 0 0 0 0;
+}
+
+#containerGrid.sixteen {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    justify-items: center;
+    box-sizing: content-box;
+    border: 2px solid red;
+    margin-top: 50px;
+    justify-content: space-evenly
+    }
+
+#containerGrid.thirtyTwo {
+    display: grid;
+    grid-template-columns: repeat(32, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+    justify-items: center;
+    box-sizing: content-box;
+    border: 2px solid red;
+    margin-top: 50px;
+    justify-content: space-evenly; 
+    }
+
+#divContainerGrid {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly
+    
+}
+
+.box16 {
+    border: 0.1px solid black;
+    width: 30px;
+    height: 30px;
+}
+
+.box32 {
+    border: 0.1px solid black;
+    width: 15px;
+    height: 15px;
+}
+
