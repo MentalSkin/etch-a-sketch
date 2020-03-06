@@ -9,10 +9,15 @@ html {
     margin-top: 15px;
 }
 
-#buttons {
+#button {
     display: flex;
     height: 30px;
-    margin: 0 0 0 0;
+}
+
+.button {
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 25px;
 }
 
 #containerGrid.sixteen {
