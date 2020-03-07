@@ -9,7 +9,7 @@ html {
     margin-top: 15px;
 }
 
-#button {
+#buttons {
     display: flex;
     height: 30px;
 }
